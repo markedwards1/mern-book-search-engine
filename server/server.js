@@ -4,8 +4,8 @@ const path = require('path');
 const { authMiddleware } = require('./utils/auth')
 
 const db = require('./config/connection');
-const typeDefs = require('./schmeas/typedefs');
-const resolvers = require('./schmeas/resolver');
+const typeDefs = require('./schmea/typedefs');
+const resolvers = require('./schmea/resolver');
 
 
 const PORT = process.env.PORT || 3001;
